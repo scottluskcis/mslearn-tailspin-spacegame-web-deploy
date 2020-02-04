@@ -65,7 +65,7 @@ stages:
     - publish: '$(Build.ArtifactStagingDirectory)'
       artifact: drop
 
-      - job: BuildDacpac
+    - job: BuildDacpac
       pool:
         vmImage: 'windows-2019'
       steps:
